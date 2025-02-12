@@ -10,8 +10,6 @@ import java.util.List;
 
 import com.xadmin.usermanagement.bean.User;
 
-
-
 public class UserDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/userdb?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 	private String jdbcUsername = "root";
